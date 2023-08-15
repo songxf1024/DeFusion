@@ -27,3 +27,16 @@
 </div>
 
 <br />
+
+---
+
+# Citation
+If you use this repository in your work, please cite our paper:
+```bash
+@inproceedings{defusion,
+  author    = {Xianfeng Song, Yi Zou, Zheng Shi, and Yanfeng Yang},
+  title     = {Image Matching and Localization Based on Fusion of Handcrafted and Deep Features},
+  journal   = {IEEE Sensors Journal},
+  year      = {2023}
+}
+```
