@@ -33,10 +33,14 @@
 # Citation
 If you use this repository in your work, please cite our paper:
 ```bash
-@inproceedings{defusion,
-  author    = {Xianfeng Song, Yi Zou, Zheng Shi, and Yanfeng Yang},
-  title     = {Image Matching and Localization Based on Fusion of Handcrafted and Deep Features},
-  journal   = {IEEE Sensors Journal},
-  year      = {2023}
+@ARTICLE{10225672,
+  author={Song, Xianfeng and Zou, Yi and Shi, Zheng and Yang, Yanfeng},
+  journal={IEEE Sensors Journal}, 
+  title={Image Matching and Localization Based on Fusion of Handcrafted and Deep Features}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/JSEN.2023.3305677}
 }
 ```
