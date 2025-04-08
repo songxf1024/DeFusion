@@ -1,6 +1,12 @@
 # Image Matching Based on Decision Level Fusion of Handcrafted and Deep Features
 This is the implementation of the paper "[Image Matching and Localization Based on Fusion of Handcrafted and Deep Features](https://ieeexplore.ieee.org/document/10225672)".
 
+
+> - **car_hynet**: The code for training and validation.     
+> - **core**: The core code of DeFusion.
+
+---
+
 **Overall Architecture**  
 <div align="center">
   <img src="https://github.com/user-attachments/assets/ac34bc7e-f615-4866-82e0-7340ffbb7d29" width="500px" />
