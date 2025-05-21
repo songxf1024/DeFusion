@@ -11,8 +11,10 @@ This is the implementation of the paper "[Image Matching and Localization Based 
 # Usage
 
 ```bash
+
 python main.py
 ```
+The default output of running the above command is shown below. You can change parameters in `main.py` and `matcher.py` and modify the preprocessing steps in `image_utils.py` to fit your scene. 
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/songxf1024/DeFusion/refs/heads/main/images/output.png" width="500px" />
