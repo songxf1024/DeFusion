@@ -4,8 +4,22 @@ This is the implementation of the paper "[Image Matching and Localization Based 
 
 > - **car_hynet**: The code for training and validation.     
 > - **core**: The core code of DeFusion.
+> - 
 
 ---
+
+# Usage
+
+```bash
+python main.py
+```
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/songxf1024/DeFusion/refs/heads/main/images/output.png" width="500px" />
+</div>   
+
+
+# Notes
 
 **Overall Architecture**  
 <div align="center">
