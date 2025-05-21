@@ -12,7 +12,7 @@ import numpy as np
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 from torch.nn.utils import spectral_norm
-from utils.util import dist_th, cal_l2_distance_matrix, eps_sqrt
+from car_hynet.utils.util import dist_th
 import torch.nn.functional as F
 
 # ---------------Common--------------------- #

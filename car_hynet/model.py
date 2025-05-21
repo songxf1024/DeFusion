@@ -1,13 +1,10 @@
-import os
-import sys
-from torch.autograd import Variable
-from model_store import *
-from utils.util import *
+from car_hynet.model_store import *
+from car_hynet.utils.util import *
 
 def getConfig(mode=1):
     store = [
         ['./weights/hynet_lib.pth', HyNet, 128],
-        ['./weights/car_hynet.pth', CAR_HyNet, 128],
+        ['./car_hynet/weights/car_hynet.pth', CAR_HyNet, 128],
     ]
     if mode >= len(store):
         print('選擇的類型錯誤!')
@@ -63,7 +60,6 @@ class NetFeature2D:
                 data_a = torch.from_numpy(data_a).unsqueeze(1)  # 3通道改了這裏!!!
             if self.do_cuda:
                 data_a = data_a.to(self.device)
-            data_a = Variable(data_a)
             with torch.no_grad():
                 out_a = self.model(data_a)
                 descriptors_for_net[i: i + self.batch_size] = out_a.cpu().detach().numpy().reshape(-1, dim)
